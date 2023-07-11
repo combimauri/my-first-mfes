@@ -1,0 +1,11 @@
+<nav>
+  <a routerLink="/feature-one"> Feature One </a>
+  <!-- Aquí podemos seguir agregando más enlaces a otros feature modules, remotos o locales -->
+</nav>
+
+<main>
+  <p>
+    {{ data$ | async }}
+  </p>
+  <router-outlet></router-outlet>
+</main>
